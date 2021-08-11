@@ -1,0 +1,81 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(333deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 90, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.carusel {
+    overflow: hidden;
+    max-width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carusel .para {
+    font-size: 19px;
+    color: white;
+    line-height: 27px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.carusel .carusel_item,
+.carusel .carusel_item--hidden {
+    display: none;
+}
+
+.carusel .carusel_item img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.carusel .carusel_item_visible {
+    display: block;
+}
+
+.carusel .carusel_actions {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 822px;
+    top: 54%;
+}
+
+.carusel .carusel_actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+}
+
+.carusel .carusel_actions #carusel_button--prev {
+    margin-left: 31px;
+    margin-top: 18px;
+}
+
+.carusel .carusel_actions #carusel_button--next {
+    margin-top: 22px;
+    margin-right: 31px
+}
+
+.head {
+    font-size: 38px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    color: black;
+    line-height: 55px;
+    margin-top: 15px;
+}
+
+.text {
+    font-size: 19px;
+    color: white;
+    line-height: 27px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
